@@ -9,7 +9,7 @@ public class DnaServiceTest {
     @Test
     public void testRows(){
         String[] dna = {
-                "AAATG",
+                "ATAATG",
                 "TGCAGT",
                 "GCTTCC",
                 "CCCCTG",
