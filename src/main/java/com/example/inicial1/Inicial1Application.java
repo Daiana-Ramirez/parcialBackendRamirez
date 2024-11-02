@@ -21,7 +21,7 @@ public class Inicial1Application {
 		// Cadena de ADN de ejemplo (convertimos la lista en un String)
 		String dna_example = "ATGCGA,CAGTGC,TTATGT,AGAAGG,CCCCTA,TCACTG";
 
-		// Crear objeto Dna usando el patrón Builder (si es que está implementado correctamente)
+		// Crear objet Dna usando el patrón Builder (si es que está implementado correctamente)
 		Dna persona1 = Dna.builder().dna(dna_example).build();
 
 		// Lógica para manejar el resultado (asumiendo que getDna() retorna un String)

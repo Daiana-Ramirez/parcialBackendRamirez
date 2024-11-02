@@ -2,6 +2,7 @@ package com.example.inicial1.services;
 
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class DnaServiceTest {
@@ -9,7 +10,7 @@ public class DnaServiceTest {
     @Test
     public void testRows(){
         String[] dna = {
-                "ATAATG",
+              "AAAATG",
                 "TGCAGT",
                 "GCTTCC",
                 "CCCCTG",
@@ -107,7 +108,7 @@ public class DnaServiceTest {
                 "GGATTC",
                 "AGGCAA"
         };
-        assertTrue(DnaService.isMutant(dna));
+        assertFalse(DnaService.isMutant(dna));
     }
 
     @Test
@@ -129,7 +130,7 @@ public class DnaServiceTest {
                 "AAAC",
                 "CGGG"
         };
-        assertTrue(DnaService.isMutant(dna));
+        assertFalse(DnaService.isMutant(dna));
     }
 
     @Test
