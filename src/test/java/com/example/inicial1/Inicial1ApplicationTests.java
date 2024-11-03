@@ -10,4 +10,11 @@ class Inicial1ApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void main() {
+		// Llama al método main para verificar que se puede ejecutar sin errores
+		Inicial1Application.main(new String[] {});
+	}
+
+
 }
